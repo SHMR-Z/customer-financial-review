@@ -1,0 +1,8 @@
+interface:
+
+  display_name: "客户财报分析"
+
+  short_description: "分析客户对外财报，核对报表勾稽与盈利质量，评估偿债及回款风险并保留来源证据"
+
+  default_prompt: "使用 $customer-financial-review 分析这些客户财报，给出财务风险、证据和需要补充的资料。"
+
