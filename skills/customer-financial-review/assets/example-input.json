@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "entity": "Cliente Exemplo Aurora (FICTÍCIO)",
+  "periods": [
+    {
+      "id": "2024",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "currency": "BRL",
+      "scope": "standalone: fictional Aurora",
+      "basis": "synthetic comparable management statements",
+      "unit_multiplier": 1000,
+      "tolerance": 0.01,
+      "comparable_to_previous": false,
+      "debt_definition": "Bank borrowings only; no leases or shareholder loans in this fictional example",
+      "retained_profit_basis": "Standalone entity with one owner; full net profit attributable to same retained earnings",
+      "facts": {
+        "total_assets": {
+          "value": 800,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Ativo total / 2024"
+          }
+        },
+        "current_assets": {
+          "value": 600,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Ativo circulante / 2024"
+          }
+        },
+        "total_liabilities": {
+          "value": 500,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Total de passivos sem PL / 2024"
+          }
+        },
+        "current_liabilities": {
+          "value": 480,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Passivo circulante / 2024"
+          }
+        },
+        "equity": {
+          "value": 300,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Patrimônio líquido / 2024"
+          }
+        },
+        "cash": {
+          "value": 100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Caixa e equivalentes / 2024"
+          }
+        },
+        "unrestricted_cash": {
+          "value": 80,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Caixa sem restrição / 2024"
+          }
+        },
+        "inventory": {
+          "value": 300,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Estoques / 2024"
+          }
+        },
+        "prepayments": {
+          "value": 30,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Adiantamentos / 2024"
+          }
+        },
+        "other_nonquick_assets": {
+          "value": 10,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Outros ativos não rápidos / 2024"
+          }
+        },
+        "interest_bearing_debt": {
+          "value": 150,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Dívida com juros / 2024"
+          }
+        },
+        "revenue": {
+          "value": 1000,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Receita líquida / 2024"
+          }
+        },
+        "cost_of_sales": {
+          "value": 800,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Custo das vendas / 2024"
+          }
+        },
+        "gross_profit": {
+          "value": 200,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Lucro bruto / 2024"
+          }
+        },
+        "operating_profit": {
+          "value": 100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Resultado operacional antes do financeiro e outras receitas / 2024"
+          }
+        },
+        "net_income": {
+          "value": 80,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Lucro líquido / 2024"
+          }
+        },
+        "operating_cash_flow": {
+          "value": 70,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Fluxo operacional líquido / 2024"
+          }
+        },
+        "investing_cash_flow": {
+          "value": -40,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Fluxo de investimento líquido / 2024"
+          }
+        },
+        "financing_cash_flow": {
+          "value": -30,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Fluxo de financiamento líquido / 2024"
+          }
+        },
+        "cash_capex": {
+          "value": 40,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / CAPEX pago em caixa / 2024"
+          }
+        },
+        "cash_begin": {
+          "value": 100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Caixa inicial / 2024"
+          }
+        },
+        "cash_end": {
+          "value": 100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Caixa final / 2024"
+          }
+        },
+        "cash_fx_other": {
+          "value": 0,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Efeito cambial e outros efeitos / 2024"
+          }
+        },
+        "retained_earnings_begin": {
+          "value": 20,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Lucros acumulados iniciais / 2024"
+          }
+        },
+        "retained_profit": {
+          "value": 80,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Lucro atribuível ao único proprietário / 2024"
+          }
+        },
+        "dividends": {
+          "value": 20,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Dividendos / 2024"
+          }
+        },
+        "retained_other_adjustments": {
+          "value": 0,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Outros ajustes de lucros acumulados / 2024"
+          }
+        },
+        "retained_earnings_end": {
+          "value": 80,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Lucros acumulados finais / 2024"
+          }
+        }
+      }
+    },
+    {
+      "id": "2025",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "currency": "BRL",
+      "scope": "standalone: fictional Aurora",
+      "basis": "synthetic comparable management statements",
+      "unit_multiplier": 1000,
+      "tolerance": 0.01,
+      "comparable_to_previous": true,
+      "debt_definition": "Bank borrowings only; no leases or shareholder loans in this fictional example",
+      "retained_profit_basis": "Standalone entity with one owner; full net profit attributable to same retained earnings",
+      "facts": {
+        "total_assets": {
+          "value": 1000,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Ativo total / 2025"
+          }
+        },
+        "current_assets": {
+          "value": 780,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Ativo circulante / 2025"
+          }
+        },
+        "total_liabilities": {
+          "value": 680,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Total de passivos sem PL / 2025"
+          }
+        },
+        "current_liabilities": {
+          "value": 650,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Passivo circulante / 2025"
+          }
+        },
+        "equity": {
+          "value": 320,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Patrimônio líquido / 2025"
+          }
+        },
+        "cash": {
+          "value": 120,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Caixa e equivalentes / 2025"
+          }
+        },
+        "unrestricted_cash": {
+          "value": 100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Caixa sem restrição / 2025"
+          }
+        },
+        "inventory": {
+          "value": 450,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Estoques / 2025"
+          }
+        },
+        "prepayments": {
+          "value": 40,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Adiantamentos / 2025"
+          }
+        },
+        "other_nonquick_assets": {
+          "value": 20,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Outros ativos não rápidos / 2025"
+          }
+        },
+        "interest_bearing_debt": {
+          "value": 180,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "1. Balanço / Dívida com juros / 2025"
+          }
+        },
+        "revenue": {
+          "value": 1100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Receita líquida / 2025"
+          }
+        },
+        "cost_of_sales": {
+          "value": 990,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Custo das vendas / 2025"
+          }
+        },
+        "gross_profit": {
+          "value": 110,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Lucro bruto / 2025"
+          }
+        },
+        "operating_profit": {
+          "value": -10,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Resultado operacional antes do financeiro e outras receitas / 2025"
+          }
+        },
+        "net_income": {
+          "value": 30,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "2. DRE / Lucro líquido / 2025"
+          }
+        },
+        "operating_cash_flow": {
+          "value": 80,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Fluxo operacional líquido / 2025"
+          }
+        },
+        "investing_cash_flow": {
+          "value": -100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Fluxo de investimento líquido / 2025"
+          }
+        },
+        "financing_cash_flow": {
+          "value": 40,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Fluxo de financiamento líquido / 2025"
+          }
+        },
+        "cash_capex": {
+          "value": 100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / CAPEX pago em caixa / 2025"
+          }
+        },
+        "cash_begin": {
+          "value": 100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Caixa inicial / 2025"
+          }
+        },
+        "cash_end": {
+          "value": 120,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Caixa final / 2025"
+          }
+        },
+        "cash_fx_other": {
+          "value": 0,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "3. DFC / Efeito cambial e outros efeitos / 2025"
+          }
+        },
+        "retained_earnings_begin": {
+          "value": 80,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Lucros acumulados iniciais / 2025"
+          }
+        },
+        "retained_profit": {
+          "value": 30,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Lucro atribuível ao único proprietário / 2025"
+          }
+        },
+        "dividends": {
+          "value": 10,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Dividendos / 2025"
+          }
+        },
+        "retained_other_adjustments": {
+          "value": 0,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Outros ajustes de lucros acumulados / 2025"
+          }
+        },
+        "retained_earnings_end": {
+          "value": 100,
+          "status": "reported",
+          "source": {
+            "file": "synthetic-statements.md",
+            "locator": "4. DLPA / Lucros acumulados finais / 2025"
+          }
+        }
+      }
+    }
+  ]
+}
